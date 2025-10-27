@@ -19,7 +19,8 @@ def generate_time_series_data():
     np.random.seed(42)  # For reproducibility
     date_range = pd.date_range(start="2024-01-01", periods=100, freq="D")
     
-    # Generate Metric A (Base trend + noise)
+    # Generate Metric A (Ba
+    #se trend + noise)
     base_a = np.linspace(50, 80, 100)
     noise_a = np.random.normal(0, 5, 100)
     metric_a = base_a + noise_a
